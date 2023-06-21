@@ -16,10 +16,16 @@ type TalkingPointType = {
   }[];
 };
 
-export type TopicType = {
+export type SubTopicType = {
   id: number;
   title: string;
   subtitle: string;
   how: HowImageType[];
   talkingPoints: TalkingPointType;
+};
+
+export type TopicType = {
+  id: number;
+  name: string;
+  subTopics: SubTopicType[];
 };
