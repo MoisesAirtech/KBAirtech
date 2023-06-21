@@ -1,9 +1,1 @@
-
-
-export const topics = {
-    
-}
-
-export const subTopics = {
-    
-}
+export {topicsDb} from "./topics/index"
