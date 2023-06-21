@@ -1,5 +1,5 @@
-import {SubTopicType} from "../../../../../types/index"
+import { SubTopicType } from "../../../../../types/index";
 
-export const promiseToContainer: SubTopicType = {
+/*export const promiseToContainer: SubTopicType = {
 
-}
+}*/
