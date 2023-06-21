@@ -1,10 +1,10 @@
-type HowImageType = {
+export type HowImageType = {
   id: number;
   name: string;
   url: string;
 };
 
-type TalkingPointType = {
+export type TalkingPointType = {
   question: {
     id: number;
     text: string;
